@@ -1,3 +1,6 @@
+import styles from './Description.module.css';
+import React from 'react';
+
 function RecipeAuthor () {
     const authorLink =
         "https://www.allthingsmamma.com/buffalo-chicken-dip-recipe-perfect-for-the-crock-pot-or-oven/";
@@ -15,9 +18,6 @@ function RecipeAuthor () {
         </div>
     );
 };
-
-import styles from './Description.module.css';
-import React from 'react';
 
 class RecipeDescription extends React.Component {
     render() {
