@@ -30,3 +30,5 @@ class RecipeDescription extends React.Component {
      </div>
     }
 }
+
+export default RecipeDescription;
