@@ -15,3 +15,18 @@ function RecipeAuthor () {
         </div>
     );
 };
+
+import styles from './Description.module.css';
+import React from 'react';
+
+class RecipeDescription extends React.Component {
+    render() {
+        <div> 
+        <div>
+           <h1>Recipe Title</h1>
+           <p>Short recipe description</p>
+        </div>
+        <RecipeAuthor />
+     </div>
+    }
+}
